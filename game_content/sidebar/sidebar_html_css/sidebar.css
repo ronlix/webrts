@@ -1,0 +1,163 @@
+/*
+Here you can style the elements from sidebar.html
+ start with z-index 20 if you want it over the map
+ cameo elements have the class name cameoEle
+*/
+
+#sidebar_container {
+	width:160px;
+	position:fixed;
+	z-index:20;
+	min-height: 100%; 
+	height:auto !important; 
+	height:100%;
+	right:0;
+	top:0;
+	background:url("../sidebar_bg.png");
+}
+
+#credits_container {
+	width:160px;	
+	height:20px;
+	color:#FFF;
+	text-align:center;
+	font-size:12px;
+}
+
+#minimap_container{
+	width:160px;	
+	height:160px;	
+}
+
+.nodsb #minimap_container{
+	background:url("../nod_rad.png") no-repeat 2px 0;
+}
+
+.gdisb #minimap_container{
+	background:url("../gdi_rad.png") no-repeat 2px 0;
+}
+
+.civsb #minimap_container{
+	background:url("../civ_rad.png") no-repeat 2px 0;
+}
+
+#build_types{
+	text-align:center;
+	font-size:12px;
+}
+
+
+#buildings_button, #infantry_button, #units_button, #sell_button, #repair_button, #map_button{
+	cursor:pointer;
+	cursor:hand;
+	color:#FFF;
+}
+
+#cameos_power{
+	position:fixed;
+	margin-top:3px;
+	min-height: 100%; 
+	height:auto !important;
+	height:100%;  
+	width:160px;	
+}
+
+#power_line{
+	position:fixed;
+	min-height: 100%; 
+	height:auto !important; 
+	height:100%;
+	right:140px;
+	width:20px;
+	background:url("../power_bg.png") repeat-y;
+	
+}
+
+#produced_power{
+	position:fixed;
+	bottom:0;
+	right:148px;
+	width:5px;
+	height:0px;
+}
+
+/*this classes are hardcoded*/
+.powerGreen{
+	background:url("../power_green.png") repeat-y;
+}
+.powerRed{
+	background:url("../power_red.png") repeat-y;
+}
+
+#needed_power{
+	position:fixed;
+	bottom:0;
+	right:144px;
+	width:20px;
+	height:0px;
+	background:url("../needed_power.png") no-repeat;
+}
+
+
+#cameo_container{
+	position:fixed;
+	width:140px;
+	right:0;
+	position:fixed;
+	min-height: 100%; 
+	height:auto !important;
+	height:100%; 
+	background:url("../camcont_bg.png") repeat-y;
+	overflow:hidden;
+	
+}
+
+.cameoEle{
+	cursor:pointer;
+	cursor:hand;
+	color:#FFF;
+	float:left;
+	margin-right:6px;
+	margin-bottom:1px;
+}
+
+
+#buildings_container, #infantry_container, #units_container{
+	width:155px;
+	margin-bottom:26px;
+}
+
+#up_down{
+	position:fixed;
+	width:140px;
+	height:26px;
+	bottom:0;
+	right:0;
+	background:url("../sidebar_bg.png");
+}
+
+
+#up_button{
+	background:url("../b_up.png") no-repeat;	
+	float:left;
+	height:26px;
+	width:31px;
+	margin-left:16px;
+	cursor:pointer;
+	cursor:hand;
+}
+
+#down_button{
+	background:url("../b_down.png") no-repeat;	
+	float:left;
+	height:26px;
+	width:31px;
+	margin-left:46px;
+	cursor:pointer;
+	cursor:hand;
+}
+
+
+
+
+

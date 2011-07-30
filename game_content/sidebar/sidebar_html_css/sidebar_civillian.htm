@@ -1,0 +1,81 @@
+<!--
+Here you can set the elements for the sidebar
+
+Forbidden tags:
+- doctype
+- html
+- head
+- body
+
+also be carefull with javascript
+
+a list of ids that are needed:
+
+- sidebar_container  ! its width must be set in sidebar in art.ini so the bodys scroll width will be wider if needed
+- options_button 
+- credits_container
+- minimap_container
+- repair_button
+- sell_button
+- map_button
+- buildings_button
+- infantry_button
+- units_button
+- power_line
+    ->in power_line<-
+    - produced_power
+    - needed_power
+    
+- cameo_container  ! cameos width and height must also be set in sidebar in art.ini cameo elements will have the class name cameoEle
+    ->in cameo container<-
+    - buildings_container
+    - infantry_container
+    - units_container
+
+- up_button
+- down_button
+-->
+
+<div id="sidebar_container" class="civsb">
+	<div id="options_button"></div>
+	
+	<div id="credits_container"></div>
+	
+	<div id="minimap_container"></div>
+	
+	<div id="build_types">
+		<span id="sell_button"> [$] </span> 
+		<span id="repair_button"> [R] </span> 
+		<span id="map_button"> [M] </span><br />
+		<span id="buildings_button"> [B] </span> 
+		<span id="infantry_button"> [I] </span> 
+		<span id="units_button"> [U] </span> 
+	</div>
+	
+	<div id="cameos_power">
+		<div id="power_line">
+			<div id="produced_power"></div> 
+			<div id="needed_power"></div> 
+		</div>
+		<div id="cameo_container">
+			<div id="buildings_container"></div> 
+			<div id="infantry_container"></div> 
+			<div id="units_container"></div>
+		</div>
+	</div>
+	<div id="up_down">
+		<div id="up_button"></div> 
+		<div id="down_button"></div> 
+	</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+

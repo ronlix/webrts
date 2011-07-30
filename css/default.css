@@ -1,0 +1,28 @@
+body{
+	background-color:#000;
+	font-family:verdana,arial,sans-serif;
+	font-size:11px;
+}
+
+
+
+#g_container {
+	margin-left:auto;
+	margin-right:auto;
+	border:1px solid #fff;
+}
+
+#BGcanvas{
+	z-index:0;
+	position:absolute;
+}
+
+#GroundCanvas{
+	z-index:1;
+	position:absolute;
+}
+
+#lightCanvas{
+	z-index:20;
+	position:absolute;
+}
